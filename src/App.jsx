@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   const add = () => {
-    for (let i = 0; i < 10000000; i++) {
+    for (let i = 0; i < 20; i++) {
       console.log("add........");
     }
   };
@@ -28,7 +28,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h1>MARK WAS HERE</h1>
+      <h1>Hacker WAS HERE</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
