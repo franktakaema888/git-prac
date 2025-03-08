@@ -5,11 +5,6 @@ function Component() {
     Delete();
   }, []);
 
-  const Delete = () => {
-    for (let i = 0; i < 100; i++) {
-      console.log(error);
-    }
-  };
 }
 
 export default Component;
